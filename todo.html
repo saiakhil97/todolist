@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/04fbf1cdd6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Tasks</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">
+                Tasks
+            </h1>
+            <form class="search">
+                <input class="form-control m-auto" type="text" name="search" placeholder="search task" />
+            </form>
+        </header>
+
+        <ul class="list-group todos mx-auto text-light">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Play Ludo</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Do office work</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Have healthy food</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+        </ul>
+        <form class="add text-center my-4">
+            <label class="text-light">Add a New Task</label>
+            <input class="form-control m-auto" type="text" name="add" placeholder="add task" />
+        </form>
+    </div>
+
+    <script src="./todoscript.js"></script>
+</body>
+
+</html>
